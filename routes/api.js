@@ -1,7 +1,6 @@
 "use strict";
 
 const Stock = require("../models/stock");
-const fetch = require("node-fetch");
 const crypto = require("crypto");
 
 module.exports = function (app) {
